@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="<?php echo base_url('assets/img/favicon.png" type="image/png')?>">
-  <title>Toko Bangunan Cahaya Alam</title>
+  <title>Kelurahan XYZ</title>
 
   <!-- Bootstrap -->
   <link href="<?php echo base_url('assets/vendors/bootstrap/dist/css/bootstrap.min.css')?>" rel="stylesheet">
@@ -37,17 +37,11 @@
       <div class="col-md-3 left_col">
         <div class="left_col scroll-view">
           <div class="navbar nav_title" style="border: 0;">
-            <a href="<?= base_url(); ?>arsip" class="site_title"><i class="fa fa-paw"></i> <span>Toko Bangunan</span></a>
+            <a href="<?= base_url(); ?>arsip" class="site_title"> <span>Kelurahan XYZ</span></a>
           </div>
 
           <div class="clearfix"></div>
 
-          <!-- menu profile quick info -->
-          <div class="profile clearfix">
-            <div class="profile_info">
-              <h2>Welcome, Seller!</h2>
-            </div>
-          </div>
           <!-- /menu profile quick info -->
 
           <br />
@@ -55,14 +49,14 @@
           <!-- sidebar menu -->
           <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
             <div class="menu_section">
-              <h3>General</h3>
+              <h3>Menu</h3>
               <ul class="nav side-menu">
                 <li><a href="<?= base_url(); ?>"><i class="fa fa-star" ></i> Home </a>
                 </li>
                 
                 <li>
-                  <a href="<?= base_url(); ?>Progress">
-                    <i class="fa fa-info-circle" ></i> Progress
+                  <a href="<?= base_url(); ?>About">
+                    <i class="fa fa-info-circle" ></i> About
                   </a>
                 </li>
               </ul>
@@ -83,7 +77,6 @@
             <ul class=" navbar-right">
               <li class="nav-item dropdown open" style="padding-left: 15px;">
                 
-                  <a class="dropdown-item" href="<?= base_url(); ?>Login/logout">Log Out</a>
                   
                 </div>
               </li>
